@@ -1,0 +1,16 @@
+window {
+  background: #0d1117;
+  border: 1px solid #58a6ff;
+}
+
+label {
+  color: #c9d1d9;
+}
+
+progressbar trough {
+  background: #21262d;
+}
+
+progressbar progress {
+  background: #58a6ff;
+}

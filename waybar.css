@@ -1,0 +1,47 @@
+* {
+  color: #c9d1d9;
+  background: #0d1117;
+}
+
+window#waybar {
+  background: #0d1117;
+  border-bottom: 2px solid #21262d;
+}
+
+#workspaces button {
+  color: #6e7681;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+  color: #58a6ff;
+  border-bottom: 2px solid #58a6ff;
+}
+
+#workspaces button:hover {
+  color: #79c0ff;
+  background: #21262d;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#bluetooth,
+#tray {
+  color: #c9d1d9;
+  background: transparent;
+  padding: 0 8px;
+}
+
+#battery.warning {
+  color: #d29922;
+}
+
+#battery.critical {
+  color: #ec8e2c;
+}
