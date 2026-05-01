@@ -1,37 +1,44 @@
 window {
-  background: #0d1117;
-  color: #c9d1d9;
+    background-color: #0d1117;
+    color: #c9d1d9;
 }
 
 #search {
-  background: #21262d;
-  color: #c9d1d9;
-  border: 1px solid #484f58;
+    background-color: #161b22;
+    color: #c9d1d9;
+    border: 1px solid #484f58;
+    border-radius: 0;
 }
 
 #search:focus {
-  border-color: #58a6ff;
+    border-color: #58a6ff;
 }
 
 .entry {
-  background: transparent;
-  color: #c9d1d9;
+    background-color: transparent;
+    color: #c9d1d9;
+    border-radius: 0;
 }
 
 .entry:selected,
 .entry:hover {
-  background: #21262d;
-  color: #58a6ff;
+    background-color: #21262d;
 }
 
 .entry .name {
-  color: #c9d1d9;
+    color: #c9d1d9;
 }
 
 .entry:selected .name {
-  color: #58a6ff;
+    color: #58a6ff;
 }
 
-.entry .description {
-  color: #6e7681;
+.entry .description,
+.entry .sub {
+    color: #6e7681;
+}
+
+.entry:selected .description,
+.entry:selected .sub {
+    color: #b1bac4;
 }
